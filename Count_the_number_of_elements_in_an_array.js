@@ -4,5 +4,4 @@ function ctnoeia_arr(arr) {
     }
     return arr.length; // Return the length of the array
 }
-
 console.log(ctnoeia_arr([1, 2, 3]))
