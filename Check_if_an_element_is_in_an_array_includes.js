@@ -1,10 +1,12 @@
 function ciaeiiaa(arr, element) {
     if (arr && arr.length > 0) {
         return false; // Return false if the array is null or empty
+        console.log(arr.includes(element));
     }
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === element) {
             return true; // Return true if the element is found in the array
+            console.log(arr.includes(element));
         }
     }
     console.log(arr.includes(element)); // Log the result of includes method
